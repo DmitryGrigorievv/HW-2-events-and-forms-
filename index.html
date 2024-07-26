@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UFC Champions</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="slider-container">
+  <div class="slider">
+    <div class="slides">
+      <img src="вердум.jpeg" alt="Slide 1">
+      <img src="стипе.webp" alt="Slide 2">
+      <img src="нгану.jpg" alt="Slide 3">
+      <img src="кормье.jpg" alt="Slide 4">
+      <img src="джонс.jpg" alt="Slide 5">
+    </div>
+  </div>
+  <button class="prev" onclick="prevSlide()">Следующее изображение</button>
+  <button class="next" onclick="nextSlide()">Предыдущее изображение</button>
+  <div class="dots-container">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
